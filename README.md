@@ -1,20 +1,22 @@
-# Peng Li — CV for CorPower Ocean
+# Peng Li — CV for Blykalla
 
-Application for **Hydrodynamics Analysis Engineer – Uncrewed Surface Vessel**, Marine Operations, Stockholm.
+Application for **Senior Thermohydraulic Analyst**, Fluid Systems Engineering, Stockholm.
 
-- [CV (PDF)](Peng_Li_CV_CorPower.pdf)
-- [Editable LaTeX source](Peng_Li_CV_CorPower.tex)
-- [Official vacancy](https://careers.corpoweroceanjobs.com/jobs/8614920-hydrodynamics-analysis-engineer-uncrewed-surface-vessel)
+- [CV (PDF)](Peng_Li_CV_Blykalla.pdf)
+- [Editable LaTeX source](Peng_Li_CV_Blykalla.tex)
+- [Official vacancy](https://careers.blykalla.com/jobs/8428493-senior-thermohydraulic-analyst)
 
-The application highlights CFD–FSI, fluid loading and structural response, modal analysis, scientific programming, parameter studies, and numerical verification. It draws on doctoral research at KTH and industrial modelling at Joyson Safety Systems.
+The application emphasises conservation-based transient models, heat transfer, 0-D/3-D code coupling, OpenFOAM, scientific programming, parameter studies, and verification and validation. Nuclear system codes and reactor-specific safety methods are presented as development areas.
 
-Ph.D. defence is scheduled for 4 December 2026. The CV states Swedish level **A2**. Published articles and unpublished manuscripts are listed separately.
+Ph.D. defence is scheduled for 4 December 2026. Swedish level is A2. The CV separates published papers from unpublished manuscripts.
 
-Build using a standard TeX Live or MiKTeX installation:
+Build with a standard TeX Live or MiKTeX installation:
 
 ```sh
-pdflatex -interaction=nonstopmode -halt-on-error Peng_Li_CV_CorPower.tex
-pdflatex -interaction=nonstopmode -halt-on-error Peng_Li_CV_CorPower.tex
+pdflatex -interaction=nonstopmode -halt-on-error Peng_Li_CV_Blykalla.tex
+pdflatex -interaction=nonstopmode -halt-on-error Peng_Li_CV_Blykalla.tex
 ```
 
-The CV follows the supplied A4, 10-point layout. It defaults to no photo; to enable the optional photo, supply `me.jpg` and change `\withphotofalse` to `\withphototrue`.
+[Previous CorPower application](https://github.com/PengLi2810/CV/blob/main/Peng_Li_CV_CorPower.pdf)
+
+The CV uses the supplied A4, 10-point layout and defaults to no photo. To enable the optional photo, supply `me.jpg` and change `\withphotofalse` to `\withphototrue`.

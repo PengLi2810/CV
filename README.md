@@ -8,7 +8,7 @@ Application for **Hydrodynamics Analysis Engineer – Uncrewed Surface Vessel**,
 
 The application highlights CFD–FSI, fluid loading and structural response, modal analysis, scientific programming, parameter studies, and numerical verification. It draws on doctoral research at KTH and industrial modelling at Joyson Safety Systems.
 
-Ph.D. defence is scheduled for **4 December 2026**. The CV states Swedish level **A2**. Published articles and unpublished manuscripts are listed separately.
+Ph.D. defence is scheduled for 4 December 2026. The CV states Swedish level **A2**. Published articles and unpublished manuscripts are listed separately.
 
 Build using a standard TeX Live or MiKTeX installation:
 

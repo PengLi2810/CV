@@ -1,18 +1,20 @@
-# Peng Li — CV for FOI
+# Peng Li — CV for CorPower Ocean
 
-Application for **Forskare inom undervattensakustik med inriktning mot modellering**, reference **FOI-PERS-2026-1039**, Stockholm–Kista.
+Application for **Hydrodynamics Analysis Engineer – Uncrewed Surface Vessel**, Marine Operations, Stockholm.
 
-- [CV (PDF)](Peng_Li_CV_FOI.pdf)
-- [Editable LaTeX source](Peng_Li_CV_FOI.tex)
-- [Vacancy](https://foi.easycruit.com/vacancy/3675433/12384)
+- [CV (PDF)](Peng_Li_CV_CorPower.pdf)
+- [Editable LaTeX source](Peng_Li_CV_CorPower.tex)
+- [Official vacancy](https://careers.corpoweroceanjobs.com/jobs/8614920-hydrodynamics-analysis-engineer-uncrewed-surface-vessel)
 
-The CV follows the supplied A4, 10-point template and emphasises acoustic modelling, CFD, and fluid–structure interaction. It states the scheduled defence date of 4 December 2026 and Swedish level A2, and lists unpublished manuscripts separately from journal publications.
+The application highlights CFD–FSI, fluid loading and structural response, modal analysis, scientific programming, parameter studies, and numerical verification. It draws on doctoral research at KTH and industrial modelling at Joyson Safety Systems.
 
-Build with a standard TeX Live or MiKTeX installation:
+Ph.D. defence is scheduled for **4 December 2026**. The CV states Swedish level **A2**. Published articles and unpublished manuscripts are listed separately.
+
+Build using a standard TeX Live or MiKTeX installation:
 
 ```sh
-pdflatex -interaction=nonstopmode -halt-on-error Peng_Li_CV_FOI.tex
-pdflatex -interaction=nonstopmode -halt-on-error Peng_Li_CV_FOI.tex
+pdflatex -interaction=nonstopmode -halt-on-error Peng_Li_CV_CorPower.tex
+pdflatex -interaction=nonstopmode -halt-on-error Peng_Li_CV_CorPower.tex
 ```
 
-The default is the version without a photo. To enable the optional photo, supply `me.jpg` and change `\withphotofalse` to `\withphototrue`.
+The CV follows the supplied A4, 10-point layout. It defaults to no photo; to enable the optional photo, supply `me.jpg` and change `\withphotofalse` to `\withphototrue`.

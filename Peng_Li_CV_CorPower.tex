@@ -15,7 +15,7 @@
 \usepackage{graphicx}
 \input{glyphtounicode}
 \pdfgentounicode=1
-\hypersetup{pdftitle={Peng Li -- CV -- Acoustic Modelling, CFD and FSI},pdfauthor={Peng Li}}
+\hypersetup{pdftitle={Peng Li -- CV -- CorPower Ocean -- CFD, FSI and Dynamic Analysis},pdfauthor={Peng Li}}
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
@@ -27,14 +27,14 @@
 \setlength{\emergencystretch}{2em}
 \newcommand{\contact}{Stockholm, Sweden \quad | \quad +46 79 010 31 96 \quad | \quad
 \href{mailto:pengli.2810@gmail.com}{pengli.2810@gmail.com}}
-\newcommand{\specialism}{Acoustic Modelling | Computational Fluid Dynamics | Fluid--Structure Interaction}
+\newcommand{\specialism}{CFD | Fluid--Structure Interaction | Dynamic Analysis}
 
 \begin{document}
 \ifwithphoto
 \noindent
 \begin{minipage}[c]{0.78\textwidth}
 {\LARGE\textbf{Peng Li}}\\[4pt]
-\textbf{Acoustic Modelling | CFD | Fluid--Structure Interaction}\\[5pt]
+\textbf{CFD | Fluid--Structure Interaction | Dynamic Analysis}\\[5pt]
 \contact
 \end{minipage}\hfill
 \begin{minipage}[c]{0.18\textwidth}
@@ -51,68 +51,70 @@
 \fi
 
 \section{Professional Summary}
-Ph.D. researcher at KTH Royal Institute of Technology specialising in computational acoustics,
-wave propagation, and coupled fluid--structure interaction (FSI). Develop analytical acoustic
-models and high-fidelity CFD--FEM simulations to explain sound generation, duct resonances,
-and flow-induced vibration. Experience includes compressible large eddy simulation (LES),
-acoustic-source decomposition, spectral analysis, scientific programming, and simulations on
-Swedish HPC infrastructure. Bring a foundation in applied mathematics, fluid mechanics, and
-structural dynamics relevant to acoustic modelling and signature analysis in underwater applications.
+Ph.D. researcher at KTH Royal Institute of Technology with expertise in computational fluid
+dynamics (CFD), fluid--structure interaction (FSI), and structural dynamics. Develop coupled
+numerical models to predict fluid loading, deformation, vibration, and transient system response.
+Combine high-fidelity simulation with analytical modelling, parameter studies, numerical
+verification, and comparison with measurements. Industrial experience includes Python-based
+model development and coupled OpenFOAM simulations supporting airbag-inflator design analysis.
+Seeking to apply these strengths to vessel dynamics and wave-energy engineering at CorPower Ocean.
 \textbf{Ph.D. defence scheduled for 4 December 2026.}
 
 \section{Technical Skills}
-\textbf{Acoustic modelling:} Convected wave equations; duct acoustics; acoustic resonances;
-mode matching; evanescent modes; junction impedance; acoustic--structural coupling;
-Ffowcs Williams--Hawkings (FW--H) analogy; duct Green's functions.\\[3pt]
-\textbf{CFD and FSI:} Compressible LES; finite-volume and finite-element methods;
-strong two-way coupling; overset and deforming meshes; hyperelasticity;
-flow-induced vibration; transient compressible flow and shock-wave propagation.\\[3pt]
-\textbf{Signal and modal analysis:} FFT; power spectral density; cross-spectra;
-coherence and phase; spectral proper orthogonal decomposition (SPOD);
-wavenumber--frequency analysis; structural eigenmodes.\\[3pt]
-\textbf{Scientific computing:} Python, MATLAB, C/C++, Fortran, Mathematica;
-parameter studies; model verification and validation; mesh and time-step convergence;
-HPC simulation workflows (NAISS resources at PDC and NSC).\\[3pt]
+\textbf{Fluid dynamics and FSI:} Compressible LES; transient CFD; finite-volume and finite-element
+methods; strong two-way fluid--structure coupling; fluid loading; overset and deforming meshes;
+flow-induced vibration; shock-wave propagation.\\[3pt]
+\textbf{Structural and dynamic analysis:} Hyperelastic material modelling; large deformation;
+structural eigenmodes and resonance; force--velocity coupling; displacement and load spectra;
+analytical plate bending and elastic buckling.\\[3pt]
+\textbf{Model development and verification:} Conservation-based transient models; coupled 0-D/3-D
+simulation; parameter-sensitivity studies; comparison with measurements; analytical/FEM
+cross-checks; mesh and time-step convergence.\\[3pt]
+\textbf{Programming and computing:} Python, MATLAB, C/C++, Fortran, Mathematica;
+scientific data analysis and visualisation; HPC simulation workflows using NAISS resources
+at PDC and NSC.\\[3pt]
 \textbf{Engineering software:} Simcenter STAR-CCM+, OpenFOAM, COMSOL Multiphysics,
-ABAQUS, ANSYS, Tecplot, Gnuplot, Inkscape, LaTeX.
+ABAQUS, ANSYS, Tecplot, Gnuplot, Inkscape, LaTeX.\\[3pt]
+\textbf{Spectral analysis and acoustics:} FFT; power and cross-spectral density; coherence and phase;
+spectral proper orthogonal decomposition (SPOD); acoustic wave and resonance modelling;
+acoustic--structural coupling; FW--H sound-source analysis.
 
 \section{Research and Professional Experience}
-\textbf{Ph.D. Researcher -- Computational Aeroacoustics and FSI}
+\textbf{Ph.D. Researcher -- CFD, Fluid--Structure Interaction and Dynamics}
 \hfill Mar 2022 -- Present\\
 \textit{Department of Engineering Mechanics, FLOW, KTH Royal Institute of Technology, Stockholm}
 \begin{itemize}
-\item Develop three-dimensional upper-airway models coupling compressible LES with
-FEM-based soft-tissue mechanics in STAR-CCM+, using strong two-way FSI,
-Neo-Hookean materials, and moving overset meshes.
-\item Develop an analytical wave-propagation and resonance model for a bifurcated duct
-with a compliant splitter, combining convected plane waves, mode-matched junction
-impedance, and frequency-dependent structural compliance.
-\item Verify acoustic-model predictions against COMSOL eigenfrequency calculations:
-frequency differences within 0.002\% for 27 rigid-splitter resonances and 1.03\% for
-the first ten soft-splitter common resonances in the tested geometry
-(unpublished manuscript).
-\item Evaluate monopole, dipole, and quadrupole sound-source contributions using the
-FW--H analogy and duct Green's functions; relate acoustic pressure spectra to
-unsteady loading, structural motion, and breathing conditions.
-\item Use pressure/vorticity SPOD, wavenumber--frequency analysis, cross-spectra,
-coherence, and modal analysis to distinguish acoustic standing waves from convective
-flow structures and identify fluid--structure coupling mechanisms.
-\item Conduct mesh and time-step convergence studies and simulations using NAISS
-HPC resources at PDC and NSC; lead analysis, visualisation, and manuscript writing
-in collaboration with researchers in fluid mechanics, FSI, and acoustics.
+\item Develop three-dimensional transient models coupling compressible LES with FEM-based
+structural mechanics in STAR-CCM+ for upper-airway aeroacoustics, resolving feedback between fluid loads and
+structural motion through strong two-way FSI and moving overset meshes.
+\item Compare flow conditions, material stiffness, and geometry variants to determine their
+effects on structural displacement, force spectra, and vibration; model large deformation
+using Neo-Hookean hyperelasticity.
+\item Use COMSOL structural eigenmodes, cross-spectra, coherence, and force--velocity phase
+analysis to identify modal excitation and explain coupled dynamic response.
+\item Develop an analytical acoustic resonance model with compliant structural coupling;
+verify predictions against COMSOL FEM, with frequency differences within 1.03\% for the
+first ten soft-splitter common resonances in the tested geometry (unpublished manuscript).
+\item Establish numerical reliability through mesh and time-step convergence studies;
+use pressure/vorticity SPOD to distinguish coherent flow structures from acoustic modes;
+run simulations on NAISS HPC resources at PDC and NSC.
+\item Lead analysis, visualisation, and manuscript writing in collaboration with specialists in
+fluid mechanics, structural dynamics, and acoustics; communicate findings through
+peer-reviewed publications, including a \textit{Physics of Fluids} Featured Article.
 \end{itemize}
 
 \vspace{3pt}
-\textbf{Research Assistant -- Transient Modelling and Compressible CFD}
+\textbf{Research Assistant -- Industrial Modelling and Compressible CFD}
 \hfill Dec 2018 -- Mar 2020\\
 \textit{Joyson Safety Systems, Aschaffenburg, Germany}
 \begin{itemize}
-\item Developed Python models of pyrotechnical initiators from mass and energy
-conservation, combustion, heat transfer, and nozzle-flow relations.
-\item Coupled 0-D model outputs to 3-D OpenFOAM simulations to resolve transient
-shock-wave propagation and assess airbag-inflator performance and structural integrity.
-\item Compared predicted pressure histories with closed-bomb measurements and
-performed parameter-sensitivity studies to support product development;
+\item Developed Python-based transient initiator models from mass and energy conservation,
+combustion, heat transfer, and nozzle-flow relations; generated boundary conditions for
+coupled CFD simulations.
+\item Coupled 0-D initiator models to 3-D OpenFOAM simulations to resolve shock-wave
+propagation and assess inflator performance and structural integrity.
+\item Compared predicted pressure histories with closed-bomb measurements and evaluated
+component sensitivities to support design assessment and product development;
 work published in \textit{Journal of Energy and Power Technology}.
 \end{itemize}
 
@@ -160,17 +162,17 @@ Symplectic superposition method for new analytic buckling solutions of rectangul
 \href{https://doi.org/10.1016/j.ijmecsci.2016.11.006}{doi:10.1016/j.ijmecsci.2016.11.006}.
 \end{enumerate}
 
-\section{Unpublished Manuscripts}
+\section{Selected Unpublished Manuscripts}
 \begin{enumerate}
-\item \textbf{Li, P.}, Laudato, M., Boij, S., and Mihaescu, M.
-\textit{Acoustic resonances of a bifurcated duct with a compliant splitter}.
-Analytical wave modelling, junction impedance, acoustic--structural coupling, and FEM verification.
-\item \textbf{Li, P.}, Laudato, M., and Mihaescu, M.
-\textit{Effects of tongue-base induced airway constriction on non-apneic palatal snoring}.
-Coupled CFD--FSI, pressure/vorticity SPOD, and separation of hydrodynamic and acoustic modes.
 \item \textbf{Li, P.}, Laudato, M., and Mihaescu, M.
 \textit{Stiffness-dependent modal excitation and force--velocity coupling in fluid-induced soft-palate vibration}.
-Modal coupling, nonlinear vibration, and sound-source analysis.
+Material-stiffness studies, modal coupling, nonlinear vibration, and acoustic response.
+\item \textbf{Li, P.}, Laudato, M., and Mihaescu, M.
+\textit{Effects of tongue-base induced airway constriction on non-apneic palatal snoring}.
+Geometry-dependent fluid loading, structural response, and pressure/vorticity SPOD.
+\item \textbf{Li, P.}, Laudato, M., Boij, S., and Mihaescu, M.
+\textit{Acoustic resonances of a bifurcated duct with a compliant splitter}.
+Analytical coupled-system modelling, junction impedance, and FEM verification.
 \end{enumerate}
 
 \section{Additional Research Experience}
@@ -200,6 +202,6 @@ Swedish Society of Biomechanics, Lund (2024).
 \section{Languages}
 Chinese -- Native \quad | \quad English -- IELTS 6.5/9.0 \quad | \quad
 German -- TestDaF 17/20\\
-\textbf{Swedish -- A2 (CEFR)}
+Swedish -- A2 (CEFR)
 
 \end{document}

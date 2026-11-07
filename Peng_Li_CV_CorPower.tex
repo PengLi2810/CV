@@ -13,8 +13,11 @@
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{graphicx}
-\input{glyphtounicode}
-\pdfgentounicode=1
+% These Unicode-mapping commands are specific to pdfTeX.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
 \hypersetup{pdftitle={Peng Li -- CV -- CorPower Ocean -- CFD, FSI and Dynamic Analysis},pdfauthor={Peng Li}}
 \pagestyle{empty}
 \setlength{\parindent}{0pt}

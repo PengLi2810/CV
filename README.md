@@ -20,3 +20,11 @@ pdflatex -interaction=nonstopmode -halt-on-error Peng_Li_CV_Blykalla.tex
 [Previous CorPower application](https://github.com/PengLi2810/CV/blob/main/Peng_Li_CV_CorPower.pdf)
 
 The CV uses the supplied A4, 10-point layout and defaults to no photo. To enable the optional photo, supply `me.jpg` and change `\withphotofalse` to `\withphototrue`.
+
+## Compiling on Overleaf
+
+Pull the latest changes from GitHub. In Settings > Compiler, choose **pdfLaTeX** and set **Main document** to `Peng_Li_CV_Blykalla.tex` (or `Peng_Li_CV_CorPower.tex` for CorPower). Then select **Recompile from scratch** from the Recompile menu.
+
+The sources also compile with XeLaTeX and LuaLaTeX. Unicode-mapping commands specific to pdfTeX are enabled only when supported by the compiler.
+
+If compilation still fails, select **Stop on first error** in the Recompile menu and inspect the first actual LaTeX error in the raw log; the general “didn’t produce a PDF” message does not identify the cause.

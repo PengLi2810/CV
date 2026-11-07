@@ -23,7 +23,9 @@ The CV uses the supplied A4, 10-point layout and defaults to no photo. To enable
 
 ## Compiling on Overleaf
 
-Pull the latest changes from GitHub. In Settings > Compiler, choose **pdfLaTeX** and set **Main document** to `Peng_Li_CV_Blykalla.tex` (or `Peng_Li_CV_CorPower.tex` for CorPower). Then select **Recompile from scratch** from the Recompile menu.
+Pull the latest changes from GitHub. In Settings > Compiler, choose **pdfLaTeX** and set **Main document** to `main.tex` for the latest Blykalla application (or `Peng_Li_CV_CorPower.tex` for CorPower). Then select **Recompile from scratch** from the Recompile menu.
+
+`main.tex` is the default entry point and loads `Peng_Li_CV_Blykalla.tex`. If the log stops before loading any document class or packages, check the filename on the line beginning `**` near the top: that file must exist in the project. An old setting pointing to a removed FOI file must be changed to a current main document.
 
 The sources also compile with XeLaTeX and LuaLaTeX. Unicode-mapping commands specific to pdfTeX are enabled only when supported by the compiler.
 
